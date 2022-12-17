@@ -1,0 +1,49 @@
+ What do you understand By Database 
+
+A database is a systematic collection of data.
+A database is information that is set up for easy access, management and updating.
+
+ What is Normalization? 
+
+Normalization is the process of organizing the data in the database. 
+Normalization is used to minimize the redundancy from a relation or set of relations.
+
+ What is Difference between DBMS and RDBMS?
+
+DBMS stands for Database Management System, and in DBMS, the data is stored as a file, 
+RDBMS is the acronym for the Relational Database Management system. In RDBMS, data is stored in the form of tables.
+
+ What is MF Cod Rule of RDBMS Systems?
+
+Codd's twelve rules are a set of thirteen rules (numbered zero to twelve) proposed by Edgar F. Codd, a pioneer of the relational model for databases, 
+designed to define what is required from a database management system in order for it to be considered relational.
+
+ What do you understand By Data Redundancy?
+
+Data redundancy occurs when the same piece of data exists in multiple places.
+
+ What is DDL Interpreter?
+
+DDL Interpreter interprets the DDL statements and records the generated statements in the table containing metadata.
+
+ What is DML Compiler in SQL?
+
+It processes the DML statements into low level instruction (machine language), so that they can be executed.
+
+ What is SQL Key Constraints writing an Example of SQL Key Constraints
+
+SQL constraints are used to specify rules for the data in a table. Constraints are used to limit the type of data that can go into a table.
+
+ What is save Point? How to create a save Point write a Query? 
+
+Savepoint is a command in SQL that is used with the rollback command. Savepoint is helpful when we want to roll back only a small part of a table and not the whole table. 
+In simple words, we can say savepoint is a bookmark in SQL.
+
+Syntax for Savepoint command: SAVEPOINT SAVEPOINT_NAME;
+
+ What is trigger and how to create a Trigger in SQL? 
+
+A trigger is a special type of stored procedure that automatically runs when an event occurs in the database server. 
+DML triggers run when a user tries to modify data through a data manipulation language (DML) event.
+
+Syntax : CREATE [OR REPLACE] TRIGGER trigger_name
